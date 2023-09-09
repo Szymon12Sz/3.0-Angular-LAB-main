@@ -1,0 +1,10 @@
+<div class="edit-task-inside">
+    <h1 class="title">EDYCJA TASKA</h1>
+    <div>
+      <input type="text" [(ngModel)]="newTaskName"placeholder="Old Task Name" />
+    </div>
+    <div class="edit-task-buttons">
+      <button class="btn btn-outline-danger">WROC</button>
+      <button class="btn btn-outline-success" (click)="updateTask()">ZAPISZ ZMIANY</button>
+    </div>
+  </div>
